@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
     s.name              = 'dot-face-lite'
-    s.version           = '5.1.0'
+    s.version           = '{version}'
     s.summary           = 'DOT iOS Face Lite'
-    # s.homepage          = 'https://www.innovatrics.com'
+    s.homepage          = 'https://www.innovatrics.com'
 
     # s.author            = { 'Jakub Vallo' => 'jakub.vallo@innovatrics.com' }
-    # s.license           = { :type => 'Innovatrics DOT License', :file => 'DotFaceLite/LICENSE' }
+    s.license           = { :type => 'Innovatrics DOT License', :file => 'DotFaceLite/LICENSE' }
 
 
     s.platform          = :ios
@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
 
     # s.ios.dependency 'sam-face', '1.2.0'
     # s.ios.dependency 'dot-protobuf', '1.0.0'
-    # s.ios.dependency 'dot-core', '5.1.0'
-    # s.ios.dependency 'dot-camera', '5.1.0'
+    # s.ios.dependency 'dot-core', '{version}'
+    # s.ios.dependency 'dot-camera', '{version}'
 end
