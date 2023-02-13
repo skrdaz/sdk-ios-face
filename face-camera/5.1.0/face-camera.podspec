@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
-    s.name              = 'face-sam'
-    s.version           = '1.2.0'
-    s.summary           = 'Face Sam'
+    s.name              = 'face-camera'
+    s.version           = '5.1.0'
+    s.summary           = 'Face Camera'
     
     # s.homepage          = 'https://www.innovatrics.com'
 
@@ -10,9 +10,9 @@ Pod::Spec.new do |s|
 
 
     s.platform          = :ios
-    s.source            = { :http => "https://s3.eu-central-1.amazonaws.com/ios-frameworks.innovatrics.com/sam-face/#{s.version}/SamFace.zip" }
+    s.source            = { :http => "https://s3.eu-central-1.amazonaws.com/ios-frameworks.innovatrics.com/dot-camera/#{s.version}/DotCamera.zip" }
     s.ios.deployment_target = '11.0'
-    s.ios.vendored_frameworks = "SamFace/SamFace.xcframework"
+    s.ios.vendored_frameworks = "DotCamera/DotCamera.xcframework"
 
     # s.ios.dependency 'sam-face', '1.2.0'
     # s.ios.dependency 'dot-protobuf', '1.0.0'
