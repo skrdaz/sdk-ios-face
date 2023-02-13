@@ -9,7 +9,8 @@ Pod::Spec.new do |s|
 
 
     s.platform          = :ios
-    s.source            = { :http => "https://s3.eu-central-1.amazonaws.com/ios-frameworks.innovatrics.com/dot-face-lite/#{s.version}/DotFaceLite.zip" }
+    # s.source            = { :http => "https://s3.eu-central-1.amazonaws.com/ios-frameworks.innovatrics.com/dot-face-lite/#{s.version}/DotFaceLite.zip" }
+    s.source            = { :http => "https://github.com/skrdaz/sdk-ios-face/blob/main/face-lite/DotFaceLite.zip"}
     s.ios.deployment_target = '11.0'
     s.ios.vendored_frameworks = "DotFaceLite/DotFaceLite.xcframework"
 
