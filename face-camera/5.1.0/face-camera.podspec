@@ -2,15 +2,9 @@ Pod::Spec.new do |s|
     s.name              = 'face-camera'
     s.version           = '5.1.0'
     s.summary           = 'Face Camera'
-    
-    # s.homepage          = 'https://www.innovatrics.com'
-
-    # s.author            = { 'Jakub Vallo' => 'jakub.vallo@innovatrics.com' }
-    # s.license           = { :type => 'Innovatrics DOT License', :file => 'DotFaceLite/LICENSE' }
-
 
     s.platform          = :ios
-    s.source            = { :http => "https://s3.eu-central-1.amazonaws.com/ios-frameworks.innovatrics.com/dot-camera/#{s.version}/DotCamera.zip" }
+    s.source            = { :http => "https://storage.googleapis.com/sdk-ios-face/DotCamera.zip" }
     s.ios.deployment_target = '11.0'
     s.ios.vendored_frameworks = "DotCamera/DotCamera.xcframework"
 
